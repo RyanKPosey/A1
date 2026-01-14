@@ -11,11 +11,11 @@ using namespace std;
 
 int main() {
     int x = 5; // init variable
-    int xPtr = &x; // init pointer
+    int *xPtr = &x; // init pointer
 
     // Print variables
     cout << "x: " << x << endl;
-    cout << "*x: " << *x << endl;
+    cout << "*x: " << &x << endl;
     cout << "xPtr: " << xPtr << endl;
     cout << "*xPtr: " << *xPtr << endl;
 
